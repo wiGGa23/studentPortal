@@ -1,0 +1,55 @@
+.text-green{
+    color: green;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.sectionHeading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39.0625px;
+    line-height: 59px;
+    color: #373737;
+}
+
+.paraText{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #7B7B7B;
+}
+
+.text-blue{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+text-decoration-line: underline;
+color: #244266;
+}
+
+.text-orange{
+    color: #FF6B00!important;
+}
+
+.bg-para{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+}
+
+
+.vertical-line {
+    border-left: 2px solid white;
+    height: 110px; /* Adjust the height as needed */
+  }

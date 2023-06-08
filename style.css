@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #f4fff6;
+  overflow-x: hidden;
+}
+
+header {
+  background: #25283a;
+  /* height: 10vh; */
+  color: white;
+  /* height: 12vh; */
+}
+
+
+.btnLogin {
+  color: white;
+  border: 1px solid white;
+  background: #008c00;
+  border-radius: 4px;
+  padding: 12px;
+  width: 105px;
+  height: 50px;
+}
+
+.headText {
+  font-size: 1.3rem;
+}
+
+nav {
+  background-color: white;
+  backdrop-filter: blur(4.5px);
+}
+nav ul li {
+  list-style: none;
+  padding: 8px 43px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 6px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black! important;
+}
+
+nav ul li:hover a {
+  color: green !important;
+}
+
+.bgImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+}
+
+.bgImg img {
+  width: 100%;
+  height: auto;
+}
+
+.firstSection .bgText h1 {
+  color: white;
+}
+.firstSection .bgText p {
+  color: white;
+}
+.firstSection .bgText h4 {
+  color: white;
+}
+
+.secondSection .container {
+  padding: 0;
+}
+
+.secondSection .box1,
+.box2 {
+  background-color: #008c00;
+  width: 567px;
+  height: 147px;
+  border: 1px solid #008c00;
+  box-shadow: 0px 2px 19px rgba(0, 0, 0, 0.1);
+  border-radius: 13.5715px;
+  padding: 0 53px;
+}
+
+.box2 {
+  align-items: flex-start;
+}
+
+.boxImg {
+  background-color: white;
+  width: 85px;
+  height: 85px;
+  border-radius: 98px;
+  background-size: cover;
+}
+
+.boxText,
+.boxBtn {
+  color: white;
+}
+
+.boxBtn {
+  font-size: 2rem;
+}
+
+.box1 {
+  position: relative;
+  cursor: pointer;
+}
+
+.boxBtn {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.box1:hover{
+    outline: 2px solid black;
+}
+.box2:hover{
+    outline: 2px solid black;
+}
+
+.card1 {
+  width: 366px;
+  height: 267px;
+  background: #f4fff6;
+  border: 1px solid #008c00;
+  box-shadow: 0px 2px 3.62667px rgba(0, 0, 0, 0.1);
+  border-radius: 9.06667px;
+  cursor: pointer;
+}
+
+.card2,
+.card3 {
+  width: 366px;
+  height: 267px;
+  background: #f4fff6;
+  box-shadow: 0px 2px 3.62667px rgba(0, 0, 0, 0.1);
+  border-radius: 9.06667px;
+  cursor: pointer;
+}
+
+.card1:hover {
+  outline: 2px solid black;
+}
+.card2:hover {
+  outline: 2px solid black;
+}
+.card3:hover {
+  outline: 2px solid black;
+}
+
+.news1 {
+  width: 370px;
+  height: 544px;
+  background: #ffffff;
+  /* Effect-1 */
+
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.newsImg {
+  width: 340px;
+  height: 225px;
+}
+
+.newsHeading p {
+  font-size: 0.7rem;
+}
+
+.read {
+  text-decoration: underline;
+}
+
+.news1:hover {
+  outline: 2px solid black;
+}
+
+.explore {
+  cursor: pointer;
+}
+
+.fourthSection .container {
+  background-color: white;
+}
+
+.benefit1 {
+  width: 278px;
+  height: 288px;
+  box-shadow: 0px 6.17778px 37.0667px rgba(38, 45, 118, 0.08);
+border-radius: 12.3556px;
+  /* border: 1px solid black; */
+}
+
+.benefitText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.3556px;
+  line-height: 180%;
+  text-align: center;
+}
+
+.stretch-image {
+  width: 100%;
+}
+
+.rectangle {
+  height: 213px;
+  background-color: #008c00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.rectangle img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 40px;
+  width: auto;
+  height: auto;
+}
+
+
+.review1 {
+  width: 370px;
+  height: 270px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  cursor: pointer;
+  /* border: 1px solid black; */
+}
+
+.review1:hover {
+  outline: 2px solid black;
+}
+
+.client-details {
+  position: relative;
+  right: 53px;
+  top: 7px;
+}
+
+footer {
+  color: white;
+  width: 100%;
+  height: 417px;
+  background-color: #25283a;
+    border-top: 5px solid green;
+}
+
+.footerImg {
+  width: 98px;
+  height: 98px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+footer .row .col {
+  border: 2px solid red;
+}
+
+footer ul li {
+  list-style: none;
+  padding: 10px 0;
+  margin: 0 48px;
+  margin-right: 123px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .row .col6 {
+  margin-bottom: 29px;
+}
+
+.footer-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: rgba(200, 200, 200, 0.5);
+}
+
+
+

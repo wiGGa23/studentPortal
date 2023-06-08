@@ -1,0 +1,53 @@
+@media (max-width:1000px) {
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+    .headBtn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 23px;
+    }
+    .box1{
+        flex-direction: column;
+        align-items: end;
+        margin-bottom:  53px;
+    }
+
+    .card1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .review-con{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0;
+    }
+    .card-con{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0
+    }
+
+    .news-con{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0
+
+    }
+}
+
+@media (max-width:500px) {
+    .card1, .card2, .card3{
+        margin: 23px 23px 0 120px;
+    }
+
+    .news-con{
+        margin: 23px 23px 0 40px;
+    }
+}
